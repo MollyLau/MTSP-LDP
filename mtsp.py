@@ -439,7 +439,6 @@ def main_func( domain_size, branch, intermediate_tree_height, time_length, data_
                         epsilon_m2_list.append(0.0)
 
                 else:
-                    # 如果有预算则重新发布
                     varience_of_OUE = get_var(can_use_privacy_budget, user_num / intermediate_tree_height)
                     last_var = varience_of_OUE
                     # initialize the tree structure, set the root node
